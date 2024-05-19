@@ -1,0 +1,95 @@
+.fitnessBlock {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background: url("../../../shared/assets/fitnessBackgraund.jpg") center
+    no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 26px;
+  line-height: 26px;
+  color: white;
+  text-transform: uppercase;
+
+  a {
+    text-decoration: none;
+    font-family: 'BebasRegular';
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+  }
+
+  .phone {
+    font-family: 'BebasRegular';
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+}
+
+.fitnessInner {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 6%;
+  width: 100%;
+  .fitnessInnerText {
+    .city {
+      font-family: "BebasRegular";
+      font-weight: 400;
+      font-size: 49px;
+      color: white;
+      margin-bottom: 25px;
+      margin-top: 18%;
+    }
+  }
+}
+
+.fitnessImg {
+  margin-right: 17%;
+  max-width: auto;
+  height: auto;
+}
+
+.phrase {
+  display: flex;
+  align-items: center;
+  color: white;
+
+  p {
+    font-family: "RobotoRegular";
+    margin-top: 25%;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0;
+    float: left;
+  }
+
+  h1 {
+    font-family: "BebasBold";
+    text-transform: uppercase;
+    line-height: 109px;
+    font-size: 109px;
+    text-align: right;
+    margin-left: -30px;
+    letter-spacing: 3px;
+  }
+}
+
+.buyBtn {
+  background: transparent;
+  border: 4px solid white;
+  color: white;
+  font-family: "RobotoBold";
+  padding: 20px 56px;
+  margin-top: 50px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}

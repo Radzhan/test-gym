@@ -5,7 +5,7 @@ import App from "./app/App.tsx";
 import { store } from "./app/storeProvider/store.ts";
 import {Provider} from "react-redux";
 
-import './app/styles/style.scss'
+import './app/styles/partials/_general.scss'
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <Provider store={store}>

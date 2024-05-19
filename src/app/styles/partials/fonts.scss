@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "BebasBold";
+    font-style: normal;
+    font-weight: 700;
+    src: local("BebasNeue-Bold"),
+    url("../../fonts/BebasNeue-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "BebasRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("BebasNeue-Regular"),
+    url("../../fonts/BebasNeue\ Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    font-style: normal;
+    font-weight: 700;
+    src: local("RobotoCondensed-Bold"),
+    url("../../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "RobotoRegular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("RobotoCondensed-Regular"),
+    url("../../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoLight";
+    font-style: normal;
+    font-weight: 300;
+    src: local("RobotoCondensed-Light"),
+    url("../../fonts/RobotoCondensed-Light.ttf") format("truetype");
+}
