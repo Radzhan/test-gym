@@ -1,0 +1,44 @@
+@use "../var/colors" as *;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.375;
+    color: #72727E;
+    background: $white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+}
+
+a {
+    color: inherit;
+}
+
+img, iframe{
+    max-width: 100%;
+    height: auto;
+}
