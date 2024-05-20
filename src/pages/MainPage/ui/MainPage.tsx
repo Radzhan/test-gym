@@ -1,4 +1,4 @@
-import { Fitness } from "../../../features/Fitness";
+import { Fitness } from "../../../widgets/Fitness";
 
 
 export const MainPage = () => {
