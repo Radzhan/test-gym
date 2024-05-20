@@ -1,0 +1,90 @@
+.advantagesBlock {
+  margin-top: 120px;
+  padding-bottom: 90px;
+  background-color: #f8f9fc;
+  h3 {
+    font-family: "BebasBold";
+    font-size: 49px;
+    line-height: 49px;
+    letter-spacing: 0.03em;
+    padding: 116px 0 60px;
+    text-align: center;
+  }
+  .advantagesInner {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0;
+  }
+  .block2 {
+    background-color: #1c3374;
+    color: white;
+    padding: 35px 15px 58px;
+    text-align: center;
+    h4 {
+      font-size: 74px;
+      line-height: 111px;
+      margin: 0 0 -20px;
+    }
+    b {
+      font-size: 26px;
+      line-height: 39px;
+    }
+    p {
+      margin-top: 40px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .block1:nth-child(+2) {
+    border-bottom: 2px solid rgba(209, 10, 66, 0.2);
+  }
+  .block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    .blockIn {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+
+      .innerNumber {
+        margin-top: -20px;
+        b {
+          font-size: 71px;
+          line-height: 106px;
+          background: linear-gradient(
+            142.94deg,
+            rgb(209, 10, 66),
+            rgb(0, 65, 202)
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        p {
+          margin-top: -15px;
+          color: #2e35ac;
+          font-size: 14px;
+          font-family: "RobotoRegular";
+          line-height: 21px;
+        }
+      }
+      .innerText {
+        b {
+          font-size: 22px;
+          display: block;
+          line-height: 33px;
+        }
+        p {
+          font-family: "RobotoLight";
+          font-size: 16px;
+          line-height: 22px;
+        }
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

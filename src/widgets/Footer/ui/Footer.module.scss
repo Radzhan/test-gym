@@ -1,0 +1,30 @@
+.footer {
+  background-color: #030a1a;
+  color: white;
+  .footerIn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  padding: 35px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    .navList {
+        gap: 15px;
+      text-align: center;
+      padding-left: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      li {
+        font-family: 'RobotoRegular';
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: none;
+        margin: 0 10px 0 41px;
+      }
+    }
+  }

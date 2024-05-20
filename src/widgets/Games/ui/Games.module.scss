@@ -1,3 +1,89 @@
 .gamesBlock {
     display: flex;
+    button {
+        background-color: transparent;
+        border: 4px solid white;
+        text-transform: uppercase;
+        color: white;
+        padding: 25px 15px;
+        font-size: 12px;
+        line-height: 14px;
+        width: 100%;
+        margin-top: 44px;
+        letter-spacing: .05em;
+    }
+}
+
+.superGame {
+    background-color: #ED0233;
+    padding: 83px 78px 85px;
+    .cross {
+        margin-top: 5px;
+        font-family: 'RobotoRegular';
+        font-size: 18px;
+        line-height: 27px;
+        color: white;
+    }
+}
+
+.superGameText {
+    display: flex;
+    align-items: center;
+    h3 {
+        font-family: 'BebasBold';
+        font-size: 90px;
+        line-height: 90px;
+        letter-spacing: .03em;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+.day {
+    color: white;
+    width: 64px;
+    .dayIn{
+        font-family: 'RobotoRegular';
+        border-bottom: 1px solid white;
+        font-size: 18px;
+        line-height: 27px;
+        padding-bottom: 5px;
+    }
+    
+}
+
+.dateIn {
+    display: flex;
+    align-items: center;
+    b{
+        
+        font-size: 40px;
+        line-height: 60px;
+        font-family: 'RobotoBold';
+        padding-right: 4px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 21px;
+        font-family: 'RobotoRegular';
+    }
+}
+
+.time {
+    color: white;
+    b {
+        display: block;
+        width: 90%;
+        font-family: 'RobotoRegular';
+        border-bottom: 1px solid white;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    p {
+        font-size: 40px;
+        line-height: 60px;
+        padding-right: 4px;
+    }
 }

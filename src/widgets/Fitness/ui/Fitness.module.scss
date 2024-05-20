@@ -4,6 +4,7 @@
   background: url("../../../shared/assets/fitnessBackgraund.jpg") center
     no-repeat;
   background-size: cover;
+  margin-bottom: 120px;
 }
 
 .header {
@@ -14,14 +15,6 @@
   line-height: 26px;
   color: white;
   text-transform: uppercase;
-
-  .logo {
-    text-decoration: none;
-    font-family: 'BebasRegular';
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.5px;
-  }
 
   .phone {
     font-family: 'BebasRegular';

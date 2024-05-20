@@ -1,4 +1,4 @@
-import style from "./advantages.module.scss";
+import style from "./Advantages.module.scss";
 
 export const Advantages = () => {
   return (
@@ -6,8 +6,9 @@ export const Advantages = () => {
       <div className="container">
         <h3 className={style.title}>Наши преимущества</h3>
         <div className={style.advantagesInner}>
+
           <div className={style.block1}>
-            <div>
+            <div className={style.blockIn} style={{borderBottom: '2px solid rgba(209, 10, 66, 0.2)', paddingBottom: '70px'}}>
               <div className={style.innerNumber}>
                 <b>900</b>
                 <p>кв/м</p>
@@ -17,7 +18,8 @@ export const Advantages = () => {
                 <p>Занимайтесь без очередей и толпучки</p>
               </div>
             </div>
-            <div>
+
+            <div className={style.blockIn}>
               <div className={style.innerNumber}>
                 <b>350</b>
                 <p>мест</p>
@@ -28,13 +30,14 @@ export const Advantages = () => {
               </div>
             </div>
           </div>
+
           <div className={style.block2}>
             <h4>100</h4>
             <b>Тренажеров</b>
             <p>Современные тренажеры на все группы мышц</p>
           </div>
-          <div className={style.block3}>
-            <div>
+          <div className={style.block1}>
+            <div className={style.blockIn} style={{borderBottom: '2px solid rgba(209, 10, 66, 0.2)', paddingBottom: '70px'}}>
               <div className={style.innerNumber}>
                 <b>70</b>
                 <p>машин</p>
@@ -46,7 +49,7 @@ export const Advantages = () => {
                 </p>
               </div>
             </div>
-            <div>
+            <div className={style.blockIn}>
               <div className={style.innerNumber}>
                 <b>5+</b>
                 <p>лет</p>

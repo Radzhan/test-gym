@@ -1,15 +1,13 @@
-import { Link } from "react-router-dom";
 import style from "./Fitness.module.scss";
 import image from "../../../shared/assets/Rectangle.jpg";
+import { Logo } from "../../../features/Logo";
 
 export const Fitness = () => {
   return (
     <div className={style.fitnessBlock}>
       <div className="container">
         <header className={style.header}>
-          <Link className={style.logo} to="/">
-            Supergym
-          </Link>
+          <Logo/>
           <p className={style.phone}>8-800-555-55-55</p>
         </header>
 

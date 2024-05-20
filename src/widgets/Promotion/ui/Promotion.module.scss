@@ -1,0 +1,68 @@
+.promotionBlock {
+  h3 {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: "BebasBold";
+    font-size: 49px;
+    line-height: 49px;
+    letter-spacing: 0.03em;
+  }
+  .promoW {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .promotionInner {
+    display: flex;
+    align-items: center;
+    color: white;
+    .price {
+      flex: 1;
+      width: 280px;
+      height: auto;
+      padding: 39px 45px 43px;
+      background-color: #ed0233;
+    }
+    .ticket {
+      .ticketInner {
+        padding: 100px;
+        background-image: linear-gradient(to right bottom, #d10a42, #00359f);
+        background-image: -webkit-gradient(
+          linear,
+          left top,
+          right bottom,
+          from(#d10a42),
+          to(#00359f)
+        );
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
+.ticketInner {
+  div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    height: 100%;
+    padding: 18px 28px 33px;
+    color: #1c3374;
+    background-color: #fff;
+  }
+  background-image: linear-gradient(to right bottom, #d10a42, #00359f);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    from(#d10a42),
+    to(#00359f)
+  );
+}

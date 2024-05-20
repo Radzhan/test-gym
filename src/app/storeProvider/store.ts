@@ -1,8 +1,9 @@
 import {configureStore} from "@reduxjs/toolkit";
+import { freeContactsReducer } from "../../widgets/FreeContacts/model/slice";
 
 export const store = configureStore({
   reducer: {
-
+    freeContacts: freeContactsReducer,
   }
 });
 
